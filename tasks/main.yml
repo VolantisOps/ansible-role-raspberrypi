@@ -1,3 +1,3 @@
 ---
-- name: Install uboot package for raspberrypi
-  pacman: "name=uboot-raspberry-pi state=present"
+- name: Install linux package for raspberrypi
+  pacman: "name=linux-raspberrypi state=present"
